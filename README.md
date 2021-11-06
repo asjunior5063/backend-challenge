@@ -30,7 +30,7 @@ Ou seja, desta forma, é possível refatorar determinados módulos sem afetar o 
 
 ### Divisão do Modelo da Arquitetura: 
 
-> domain
+#### domain
 	- Modelo: modelo de domino, o mapeamento da entidade
 	- Service: com as regras de negocio
 	 
@@ -38,11 +38,11 @@ Ou seja, desta forma, é possível refatorar determinados módulos sem afetar o 
 		Service
 		Repository
 
-> infra
+#### infra
    - Repository IMPLEMENTANDO a interface do domain, abstraindo a parte com o banco
    - Injeção da dependencia do repository, tipo o JPA ou outra coisa
 
-> api
+#### api
    - App: Especie de conversor, comunicação entre o model e controler, utilizando a abstração e tratativa de erros e DTOS
    - Controller: Apenas chama o app, com o resultado já convertido. 
    
