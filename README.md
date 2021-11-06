@@ -48,7 +48,7 @@ Ou seja, desta forma, é possível refatorar determinados módulos sem afetar o 
    
 
 
-## REQUSITOS: 
+## REQUISITOS: 
 
 - Baixe o OpenJDK 17 (https://jdk.java.net/17/) para a versão do seu SO
 - Indique na variavel de ambiente JAVA_HOME o caminho do JDK (https://confluence.atlassian.com/confbr1/configurando-a-variavel-java_home-no-windows-933709538.html)
@@ -70,3 +70,6 @@ Content-Type: application/json
     http://localhost:8080/swagger-ui.html#/ 
     
   - Em Password Validate POST > valida-senha
+
+![image](https://user-images.githubusercontent.com/62432663/140595006-337a149e-4742-4d6c-aba7-94db5bd8df84.png)
+
